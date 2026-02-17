@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIB LinkedIn Banner</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', Arial, sans-serif;
+        }
+        .banner-container {
+            position: relative;
+            width: 2000px;
+            height: 500px;
+            background-image: url('https://image2url.com/r2/default/images/1771352558957-282a405f-0b43-4057-9a0b-c379d01eb872.png');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+        .dynamic-title {
+            position: absolute;
+            top: 180px;
+            left: 450px;
+            width: 1100px;
+            font-size: 54px;
+            font-weight: bold;
+            color: #333333;
+            line-height: 1.2;
+            word-wrap: break-word;
+        }
+        .dynamic-date-topic {
+            position: absolute;
+            top: 280px;
+            left: 450px;
+            font-size: 28px;
+            color: #96d800;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .topic-icon {
+            font-size: 40px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-container">
+        <div class="dynamic-title">The Future of Energy Tracking in Cross-Border Markets</div>
+        <div class="dynamic-date-topic">
+            <span class="topic-icon">⚡</span>
+            <span>February 17, 2026 | Energy</span>
+        </div>
+    </div>
+
+    <script>
+        // This will be updated by a Zap to pull the latest post from your table
+        // For now, it displays the placeholder content above
+    </script>
+</body>
+</html>
